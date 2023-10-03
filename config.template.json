@@ -1,0 +1,12 @@
+{
+	"xon_server": "127.0.0.1",
+	"xon_port": 26000,
+	"listen_address": "127.0.0.1",
+	"listen_port": 5000,
+	"rcon_password": "",
+	"rcon_mode": 2,
+	"matrix_server": "https://matrix.org",
+	"matrix_username": "",
+	"matrix_token": "",
+	"matrix_room": ""
+}

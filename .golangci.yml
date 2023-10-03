@@ -1,0 +1,19 @@
+run:
+  # skip code that isn't ours
+  skip-files:
+    - rcon.go
+
+linters:
+  enable-all: true
+  disable:
+    - funlen
+    - gci
+    - godox
+    - tagliatelle
+    - depguard
+    - cyclop
+    - gochecknoglobals
+
+linters-settings:
+  lll:
+    line-length: 200
